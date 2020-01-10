@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/pinamax/pinabot/issues"
   },
-  "homepage": "https://github.com/pinamax/pinabot#readme"
+  "homepage": "https://github.com/pinamax/pinabot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.1.6"
+  }
 }
