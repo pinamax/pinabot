@@ -5,7 +5,6 @@
         "rootDir": "src/",
         "outDir": "build/",
         "sourceMap": true,
-        "esModuleInterop": true,
-        "typeRoots": ["types/"]
+        "esModuleInterop": true
     }
 }
