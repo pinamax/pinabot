@@ -1,0 +1,27 @@
+{
+  "name": "pinabot",
+  "version": "1.0.0",
+  "description": "Bot for Pinamax Discord",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "tsc -p tsconfig.json && node build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinamax/pinabot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinamax/pinabot/issues"
+  },
+  "homepage": "https://github.com/pinamax/pinabot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.1.6"
+  }
+}
